@@ -5,7 +5,7 @@ A java application/service for integration with OpenIMIS (Insurance Management S
  - FHIR resources construction for insurance related stuffs like claim, eligibility coverage etc.
 
 ## Build
- - ``mvn clean packages deploy``
+ - ``mvn clean packages deploy on to this machine``
  - Generates rpm and packaged jar
  
 ## Deployment 

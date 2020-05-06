@@ -4,7 +4,10 @@
 	<groupId>org.bahmni</groupId>
 	<artifactId>insurance-integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	
+	<build>
+		<finalname>insurance-integration</finalname>
+	</build>
 	<properties>
 		<java.version>1.8</java.version>
 		<start-class>org.bahmni.insurance.SpringBootConsoleApplication</start-class>

@@ -4,6 +4,10 @@
 	<groupId>org.bahmni</groupId>
 	<artifactId>insurance-integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<build>
+		<finalName>${project.artifactID}</finalName>
+		
+	</build>
 	
 	<properties>
 		<java.version>1.8</java.version>
@@ -233,9 +237,6 @@
 					<preremoveScriptlet>
 						<scriptFile>${basedir}/src/scripts/installation/preRemove.sh</scriptFile>
 						<fileEncoding>utf-8</fileEncoding>
-						<build>
-		<finalname>insurance-integration</finalname>
-		</build>
 					</preremoveScriptlet>
 				</configuration>
 			</plugin>

@@ -11,4 +11,4 @@ A java application/service for integration with OpenIMIS (Insurance Management S
 ## Deployment 
  - Install the generated rpm on top of existing Bahmni installed platform  on through maven(works only from Bahmni 0.92 )
  - Configure the application.properties file: add necessary credentials and urls (`/etc/insurance-integration/insurance-integration.properties`)
-jkadif haoiufeja[oeu 
+jkadif haoiufeja

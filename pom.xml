@@ -151,7 +151,6 @@
 
 
 	<build>
-		<finalName>${project.artifaceId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -238,6 +237,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>${project.artifaceId}</finalName>
 
 	</build>
 

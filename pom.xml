@@ -237,7 +237,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>${project.artifaceId}</finalName>
 
 	</build>
 
